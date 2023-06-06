@@ -18,6 +18,7 @@ members = [
     "contracts/tokenomics/vesting",
     "contracts/tokenomics/xastro_token",
     "contracts/periphery/*",
+    "contracts/concentrated-liquidity-provisioning",
 ]
 
 [profile.release]

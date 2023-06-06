@@ -606,6 +606,21 @@ dependencies = [
 ]
 
 [[package]]
+name = "concentrated-liquidity-provisioning"
+version = "0.1.0"
+dependencies = [
+ "cosmwasm-schema",
+ "cosmwasm-std",
+ "cosmwasm-storage",
+ "cw-multi-test 0.16.4",
+ "cw-storage-plus 1.0.1",
+ "cw2 1.0.1",
+ "schemars",
+ "serde 1.0.163",
+ "thiserror",
+]
+
+[[package]]
 name = "const-oid"
 version = "0.9.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
